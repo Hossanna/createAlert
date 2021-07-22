@@ -9,32 +9,18 @@
     background-color: whitesmoke;
   }
 
-  #createAlert{
-    margin: 20% 40% ;
-    font-size: 2em;
-    padding: 1.5%;
-  }
 .container {
-    display: none;
     max-width: 500px;
     margin: 30px auto;
     overflow: auto;
     min-height: 300px;
     border: 1px solid white;
     background-color: rgb(255, 255, 255);
-    
     border-radius: 5px;
   }
 
   .first{
       display: flex;
-  }
-
-  .icon{
-    width: 15%;
-    margin-top: 20px;
-    height: 50%;
-    color: green;
   }
 
   #alert{
