@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+  }
+
+  #createAlert{
+    margin: 20% 40% ;
+    font-size: 2em;
+    padding: 1.5%;
+  }
+.container {
+    display: none;
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 5px;
+  }
+
+  .first{
+      display: flex;
+  }
+
+  .icon{
+    width: 15%;
+    margin-top: 20px;
+    height: 50%;
+    color: green;
+  }
+
+  #alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  span{
+      color: steelblue;
+  }
+
+  .alert{
+      width: 75%;
+      margin-bottom: 30px;
+      margin-top: 20px;
+  }
+
+  select{
+        padding: 2%;
+        padding-bottom: 0;
+        height: 40px;
+        width: 60%;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        appearance: none;
+        background: url("images/caret_down.png") no-repeat 230px center;
+  }
+
+  .select{
+    margin-bottom: 60px;
+  }
+  
+
+  .footer{
+      display: flex; 
+      border-top: 1px solid gray;
+      line-height: 2;
+      
+  }
+
+  .top{
+    padding: 0 30px;
+  }
+
+  button{
+    display: inline-block;
+    background: rgb(19, 8, 39);
+    color: #fff;
+    border: none;
+    padding: 2% 4%;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+
+  #btn{
+    margin-left: 55%;
+  }
+  
+  .space{
+      margin: 5%;
+  }
