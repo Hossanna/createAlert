@@ -1,13 +1,10 @@
-
+// var container = document.getElementsByClassName("container");
 
 // document.getElementById("createAlert").addEventListener('click', () => {
-//     alert('button was clicked')
-// })
+//     container.toggleClass("toggle");
+// });
 
-var createAlert = document.getElementById("createAlert");
-var container = document.getElementsByClassName("toggle");
-
-createAlert.addEventListener("click", () => {
-    container.classList.toggle("toggle");
-    return createAlert;
+$("#createAlert").click(function(){
+    $("#createAlert").fadeOut();
+    $(".container").toggleClass("toggle")
 });

@@ -24,6 +24,10 @@
     border-radius: 5px;
   }
 
+  .toggle{
+    display: none;
+  }
+
   .first{
       display: flex;
   }
