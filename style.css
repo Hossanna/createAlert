@@ -9,6 +9,11 @@
     background-color: whitesmoke;
   }
 
+  #createAlert{
+    margin: 20% 40% ;
+    font-size: 1em;
+    padding: 1.5%;
+  }
 .container {
     max-width: 500px;
     margin: 30px auto;
