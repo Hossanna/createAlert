@@ -97,3 +97,9 @@
   .space{
       margin: 5%;
   }
+
+.fa{
+    position: absolute;
+    left: 74%;
+    top: 7%;
+}
