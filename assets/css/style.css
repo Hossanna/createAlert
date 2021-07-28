@@ -59,7 +59,7 @@
         margin-bottom: 10px;
         border-radius: 3px;
         appearance: none;
-        background: url("images/caret_down.png") no-repeat 230px center;
+        background: url("assets/images/caret_down.png") no-repeat 230px center;
   }
 
   .select{
@@ -98,8 +98,3 @@
       margin: 5%;
   }
 
-.fa{
-    position: absolute;
-    left: 65%;
-    top: 10%;
-}
